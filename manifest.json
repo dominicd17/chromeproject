@@ -20,6 +20,6 @@
     "32": "/RRchromeEx/NoRickRoll-32.png",
     "48": "/RRchromeEx/NoRickRoll-48.png",
     "128": "/RRchromeEx/NoRickRoll-128.png"
-  }
-
+  },
+  "options_page": "options.html"
 }

@@ -1,5 +1,5 @@
 
-let onOff = false;
+let onOff = true;
 
 chrome.runtime.onInstalled.addListener(() => {
 

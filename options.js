@@ -1,6 +1,6 @@
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
-const presetButtonColors = ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"];
+const presetButtonColors = ["#3aa757", "#e8453c"];
 
 // Reacts to a button click by marking marking the selected button and saving
 // the selection
@@ -17,6 +17,13 @@ function handleButtonClick(event) {
   let color = event.target.dataset.color;
   event.target.classList.add(selectedClassName);
   chrome.storage.sync.set({ color });
+  if (color === presetButtonColors[0]) {
+    let onOff = true;
+    chrome.storage.sync.set({ onOff })
+  } else if (color === presetButtonColors[1]) {
+    let onOff = false;
+    chrome.storage.sync.set({ onOff })
+  }
 }
 
 // Add a button to the page for each supplied color
