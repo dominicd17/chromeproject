@@ -29,7 +29,7 @@ console.log("testing");
         url.href = rickRolls[0];
       } else if (trueOrFalse && rickRolls.includes(url.href)) {
         url.href = 'https://www.youtube.com/watch?v=Ti4sqG85FU4';
-        url.innerText = "WARNING RICK ROLL LINK DETECTED INITIALIZING SNAKE PROTOCOL"
+        url.innerText = "WARNING! WARNING! RICK ROLL LINK DETECTED!!"
       }
     }
 
