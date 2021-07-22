@@ -6,5 +6,21 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "scripting"]
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/RRchromeEx/NoRickRoll-16.png",
+      "32": "/RRchromeEx/NoRickRoll-32.png",
+      "48": "/RRchromeEx/NoRickRoll-48.png",
+      "128": "/RRchromeEx/NoRickRoll-128.png"
+    }
+  },
+  "icons": {
+    "16": "/RRchromeEx/NoRickRoll-16.png",
+    "32": "/RRchromeEx/NoRickRoll-32.png",
+    "48": "/RRchromeEx/NoRickRoll-48.png",
+    "128": "/RRchromeEx/NoRickRoll-128.png"
+  }
+
 }
